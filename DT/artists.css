@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .title-page {
     background-image: url("images/artists title.jpg");
     background-size: cover;
@@ -33,14 +39,13 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    border-radius: 12px;
 }
 
 .nav a {
     margin: 0 20px;
     text-decoration: none;
     color: black;
-    font-family: Poppins;
+    font-family: Roboto;
     font-size: 18px;
     font-style: bold;
 }

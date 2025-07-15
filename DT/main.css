@@ -123,14 +123,13 @@ html, body {
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    border-radius: 12px;
 }
 
 .nav a {
     margin: 0 20px;
     text-decoration: none;
     color: black;
-    font-family: Poppins;
+    font-family: Roboto;
     font-size: 18px;
     font-style: bold;
 }
