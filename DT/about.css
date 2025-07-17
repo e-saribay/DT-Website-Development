@@ -8,7 +8,7 @@ html, body {
 }
 
 .title-page {
-    /*background-image: url("images/artists title.jpg");*/
+    background-image: url("images/about title.jpg");
     background-size: cover;
     background-color: rgb(250, 250, 250);
     display: flex;
@@ -40,7 +40,6 @@ html, body {
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    border-radius: 12px;
 }
 
 .nav a {
@@ -50,4 +49,55 @@ html, body {
     font-family: Poppins;
     font-size: 18px;
     font-style: bold;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+
+.content h2 {
+    font-family: Roboto;
+    font-size: 49px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.info p {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+}
+
+.history {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.history p {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
 }
