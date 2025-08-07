@@ -101,6 +101,7 @@
 
 .info button:hover {
     background-color: #5a8cd9;
+    font-style: italic;
 }
 
 .info button a {
@@ -131,6 +132,7 @@
 
 .artists li a:hover {
     font-style: italic;
+    color:#ffd600;
 }
 
 .artists button {
@@ -152,6 +154,7 @@
 
 .artists button:hover {
     background-color: #d4004f;
+    font-style: italic;
 }
 
 .popular-songs {
@@ -203,6 +206,7 @@ html, body {
 
 .popular-songs button:hover {
     background-color: #e6c200;
+    font-style: italic;
 }
 
 .nav {
